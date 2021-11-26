@@ -1,0 +1,89 @@
+ /* Write some CSS below */
+body {
+	font-family: Overpass ;
+	font-size : 18 px ;
+	background-color: rgb(230, 230, 230);
+	color : rgb(30,30,30);
+	margin : 0 px; 
+}
+
+
+a{
+	text-décorations : none;
+
+}
+
+h1,h2,h3{
+	font-family: chivo;
+}
+
+
+img { 
+border-radius: 50%; 
+width: 10 px ;
+height: 10 px;
+}
+
+.banner {
+	text-align: center;
+	background-image: url(images/banner.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 100 px 0px;
+	color: white;
+}
+.banner h1 {
+font-size: 45 px;
+}
+
+.btn-yellow
+
+.banner p {
+	font-size: 27 px;
+}
+.container{
+	text-align: center;
+}
+
+.card-white img{
+	width: 200 px;
+	height: 200px;
+	object-fit: cover;
+
+}
+
+.card-white {
+	background-color: white;
+	width: 220px;
+	padding: 25px;
+	text-align: center;
+	margin-bottom: 8px;
+	border-radius: 4px;
+	box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+	margin-bottom: 24px;
+
+}
+
+.footer {
+	text-align: center;
+	background-color: rgb(150, 150, 150);
+	padding: 16px;
+
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+
+
+
+
