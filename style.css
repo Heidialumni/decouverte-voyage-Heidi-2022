@@ -1,0 +1,201 @@
+ /* Write some CSS below */
+body {
+	font-family: Fjalla One ;
+	font-size : 18px ;
+	background-color: rgb(230, 230, 230);
+	color : rgb(30,30,30);
+	margin: 0px;
+}
+
+h1{
+	font-family: Lobster;
+	color: #D21404;
+	text-shadow: ;
+	text-shadow:#ffe69a 0 -1px 0,
+	#ff6767 2px 2px 0,
+	#ca3333 3px 3px 0,
+	#770a0c 4px 4px 0,
+	#333 5px 5px 10px;color:#FFE5BF;
+}
+
+h2{
+	font-family: Montagu Slab;
+	color: #420C09;
+	margin: 10%;
+}
+
+h3{
+	color: #FF0000;
+	margin-left: 10%;
+	font-family: lobster;
+	font-size: 25px;
+}
+
+h4{
+	font-family: lobster;
+	color: grey;
+}
+
+h5{ 
+	font-family: Montagu Slab;
+	color: #674621;
+	margin: 2%;
+	font-size: 30px;
+	box-shadow: 3px 3px #BC544B, -1em 0 .4em grey;;
+	background-color: rgb(250, 250, 250);
+}
+
+h6{
+	font-family: Montagu Slab;
+	color: #674621;
+	margin: 5%;
+	font-size: 17px;
+}
+
+p {
+	color: white;
+	opacity: .7;
+	background-position: center;
+}
+
+a {
+	text-decoration : none;
+	font-family: Fjalla One;
+}
+
+iframe {
+	width: 500px;
+	height: 300px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 10%;
+}
+
+label {
+    font-size: 1rem;
+    padding: 100px 150px;
+    font-family: lobster;
+    color: #674621;
+}
+
+select {
+    font-size: 1rem;
+    padding: 10px 10px;
+    font-family: lobster;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+
+.banner {
+	text-align: center;
+	background-image: url(images/voyage.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0px;
+	color: white;
+} 
+	.btn-yellow {
+		background-color: #4E0707;
+		padding: 16px 48px;
+		border-radius: 4px;
+		margin: 20px;
+		color: white;
+		font-size: 16px;
+	}
+
+.container {
+	width: 800px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.cards {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 16px;
+		}
+	.card-white img{
+		width: 200px;
+		height: 200px;
+		object-fit: cover;
+		border-radius: 100px;
+		}
+
+	.card-white {
+		background-color: white;
+		width: 220px;
+		padding: 24px;
+		text-align: center;
+		margin-bottom: 8px;
+		border-radius: 100px;
+		box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+		}
+
+.PNR{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 20px;
+		box-shadow: 0px 0px 16px #BC544B;
+	}
+	.PNR img {
+			width: 200px;
+			height: 200px;
+			object-fit: cover;
+			border-radius: 30px;
+			margin: auto;
+			top: 50%;
+			left: 50%;
+			}
+
+
+
+.navbar{
+		height: 50px;
+		padding: 0;
+		margin: 0;
+		position: absolute; 
+		}
+
+	.navbar li {
+		height: auto;
+		width: 420.8px; 
+		float: left;  
+		text-align: center; 
+		list-style: none;  
+		font: normal bold 16px/1em Fjalla One;  
+		padding: 0;
+		margin: 0;
+		background-color: #D0312D;
+		}
+
+	.navbar a {
+			padding: 18px 0;  
+		border-left: 10px solid white;
+		text-decoration: none; 
+		color: white; 
+		display: block;
+		}
+
+
+.rounded{
+	border-top: 8px solid #BC544B;
+  	border-radius: 10px;
+  	background-color: #BC544B;
+}
+
+.footer {
+	text-align: center;
+	background-color: #4E0707;
+	padding: 24px;
+	margin-bottom: 0px;
+
+}
+
+.btn-btn-default {
+	color: rgb(250, 250, 250);
+}
+
+
+
+
